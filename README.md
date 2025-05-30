@@ -51,11 +51,16 @@ The main script is `merge-lines.sh`, which combines up to three text lines into 
    ```
    - Generates a single left-aligned line.
 
-## Creating a Custom Font Profile
+## Customization
+### Profiles
+
+Profiles is the way for setting up different fonts, sizes and positions.
+
+### Creating a Custom Font Profile
 
 Font profiles are stored in the `profiles/` directory as shell scripts. Each profile defines settings for three sizes (`large`, `normal`, `small`) to ensure proper text and background alignment.
 
-### Steps
+#### Steps
 
 1. Create a new file in `profiles/`, e.g., `profiles/MyFont.sh`.
 2. Define a `profile` function that returns parameters for each size:
@@ -64,7 +69,7 @@ Font profiles are stored in the `profiles/` directory as shell scripts. Each pro
    - `BG_PAD_WIDTH`, `BG_PAD_HEIGHT`: Padding for the black background rectangle.
    - `BG_OFFSET_X`, `BG_OFFSET_Y`: Text offset relative to the background for centering.
 
-### Example Profile
+#### Example Profile
 
 ```bash
 #!/usr/bin/env bash
@@ -113,7 +118,7 @@ profile() {
    ./merge-lines.sh --text "LOGO" --profile MyFont
    ```
 
-### Notes
+#### Notes
 
 - Ensure the font (`FONT_NAME`) is installed on your system. Check available fonts with:
   ```bash
