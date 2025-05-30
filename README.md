@@ -73,7 +73,7 @@ profile() {
     local size=$1
     case $size in
         "large")
-            echo "FONT_NAME='Arial-Bold'"
+            echo "FONT_NAME='EurostileLTStd-BoldEx2'"
             echo "FONT_SIZE=64"
             echo "BG_PAD_WIDTH=20"
             echo "BG_PAD_HEIGHT=6"
@@ -81,7 +81,7 @@ profile() {
             echo "BG_OFFSET_Y=8"
             ;;
         "normal")
-            echo "FONT_NAME='Arial-Bold'"
+            echo "FONT_NAME='EurostileLTStd-BoldEx2'"
             echo "FONT_SIZE=48"
             echo "BG_PAD_WIDTH=16"
             echo "BG_PAD_HEIGHT=4"
@@ -89,7 +89,7 @@ profile() {
             echo "BG_OFFSET_Y=6"
             ;;
         "small")
-            echo "FONT_NAME='Arial-Bold'"
+            echo "FONT_NAME='EurostileLTStd-BoldEx2'"
             echo "FONT_SIZE=32"
             echo "BG_PAD_WIDTH=12"
             echo "BG_PAD_HEIGHT=3"
