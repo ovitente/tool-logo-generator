@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Tool Logo Generator
+# Copyright (c) 2025 Ivan Kostrubin
 
 # Default configuration variables
 OFFSET_X_1=0    # X offset for first image

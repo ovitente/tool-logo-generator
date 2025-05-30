@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Tool Logo Generator
+# Copyright (c) 2025 Ivan Kostrubin
 
 # Array of 10 different texts
 texts=(
