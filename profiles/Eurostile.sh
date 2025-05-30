@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Tool Logo Generator
+# Copyright (c) 2025 Ivan Kostrubin
 
 profile() {
     local size=$1
